@@ -1,6 +1,6 @@
 import {View} from "react-native";
 import { Link, Stack} from "expo-router";
-import {styles} from "./(tabs)/styles"; // Assuming styles are defined in a separate file
+import {styles} from "./styles"; // Assuming styles are defined in a separate file
 
 export default function NotFound(){
     return(

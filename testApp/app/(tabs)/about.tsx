@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from "react-native";
-import {styles} from "./styles"; // Removed to avoid conflict with local declaration
+import {styles} from "../styles"; // Removed to avoid conflict with local declaration
 
 export default function About() {
   return (

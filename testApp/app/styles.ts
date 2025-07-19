@@ -17,6 +17,13 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     borderRadius: 5,
   },
+
+  image: {
+    width: "50%",
+    height: "50%",
+    justifyContent: "center",
+    resizeMode: "cover",
+  }
 });
 
 export {styles};
