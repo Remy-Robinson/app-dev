@@ -1,19 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
+import {styles} from "./styles"; // Removed to avoid conflict with local declaration
 
 export default function About() {
   return (
     <View style={styles.container}>
-      <Text>About this app</Text>
-      <Text>This is a simple React Native application.</Text>
+      <Text style = {styles.container}>About this app</Text>
+      <Text style = {styles.container}>This is a simple React Native application.</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 20,
-  },
-});
