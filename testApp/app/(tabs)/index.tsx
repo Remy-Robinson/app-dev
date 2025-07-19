@@ -3,6 +3,7 @@ import { Link } from "expo-router";
 import {styles} from "../styles"; 
 const PlaceholderImage = require("../../assets/images/background-img.jpg");
 import ImageViewer from "../../components/imageViewer";
+import Button from "../../components/button";
 
 export default function Index() {
   return (
@@ -10,8 +11,14 @@ export default function Index() {
       <View style={styles.imageContainer}>
         <ImageViewer imgSource={PlaceholderImage}/>
       </View>
-      <Text>Welcome to the Home Screen!</Text>
+      <View>
+        <Button label="Choose a photo" />
+        <Button label="Use a photo" />
+      </View>
+
+
     </View>
+
   );
 }
 

@@ -12,3 +12,5 @@ export default function ImageViewer({ imgSource }: Props) {
             <Image source={imgSource} style={styles.image} />
     );
 }
+
+export {ImageViewer};

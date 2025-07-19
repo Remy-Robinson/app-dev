@@ -11,19 +11,42 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    marginTop: 20,
+    backgroundColor: "#e91e63",
     padding: 10,
-    backgroundColor: "#007BFF",
     color: "#FFFFFF",
-    borderRadius: 5,
+    textAlign: "center",
+    marginTop: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
   },
 
   image: {
-    width: "50%",
-    height: "50%",
+    width: 150,
+    height: 300,
+    borderRadius: 10,
+  },
+
+  imageContainer: {
+    flex: 1,
     justifyContent: "center",
-    resizeMode: "cover",
-  }
+    alignItems : "center",
+
+  },
+
+  buttonText: {
+    color: "#FFFFFF",
+    fontSize: 16,
+  },
+
+  buttonContainer: {
+    margin: 10,
+    padding: 10,
+    backgroundColor: "#f0f0f0",
+    borderRadius: 10,
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
 
 export {styles};
